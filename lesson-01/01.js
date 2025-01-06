@@ -2,8 +2,8 @@
 // Результат присвойте переменной sum
 
 // your code
-let i = 0;
-let sum;
+let sum = 0;
+let i = 1;
 
 while (i <= 20) {
     sum += i;
