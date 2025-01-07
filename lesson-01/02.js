@@ -10,6 +10,7 @@ let factorial = 10;
 let i = 1;
 
 while (factorial) {
-  i *= (factorial--)
+  i *= factorial;
+  factorial--;
 }
 console.log(i);
